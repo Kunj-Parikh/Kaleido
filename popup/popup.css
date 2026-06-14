@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 16px;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: system-ui, -apple-system, sans-serif;
+  width: 320px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a78bfa;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+select, textarea {
+  background-color: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+select:focus, textarea:focus {
+  border-color: #a78bfa;
+}
+textarea {
+  resize: none;
+  height: 80px;
+  font-family: inherit;
+}
+button {
+  background-color: #a78bfa;
+  color: #0f172a;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+button:hover {
+  background-color: #c084fc;
+}
+button:active {
+  transform: scale(0.98);
+}
